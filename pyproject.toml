@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anh"
+version = "0.0.1"
+authors = [{name="Andrew Hancock", email="andrewneilhancock@gmail.com" }]
+description = "Personal CLI swiss-army knife."
+readme = "README.md"
+dependencies = ["click", "keyring"]
+requires-python = ">=3.9"
+
+[project.scripts]
+deu = "deu.util:deu"

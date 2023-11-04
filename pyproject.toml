@@ -11,7 +11,7 @@ version = "0.0.1"
 authors = [{name="Andrew Hancock", email="andrewneilhancock@gmail.com" }]
 description = "Personal CLI swiss-army knife."
 readme = "README.md"
-dependencies = ["click", "keyring"]
+dependencies = ["click", "keyring", "pyodbc", "pydantic"]
 requires-python = ">=3.9"
 
 [project.scripts]

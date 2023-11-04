@@ -4,6 +4,7 @@ from os.path import exists, join
 import click
 
 from deu.cred import cred
+from deu.conn import conn
 from deu.repo import Repo
 
 
@@ -36,6 +37,7 @@ def test():
 
 
 deu.add_command(cred)
+deu.add_command(conn)
 
 
 if __name__ == '__main__':

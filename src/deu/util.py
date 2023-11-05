@@ -6,6 +6,7 @@ import click
 from deu.cred import cred
 from deu.conn import conn
 from deu.repo import Repo
+from deu.db import db
 
 
 @click.group()
@@ -38,6 +39,7 @@ def test():
 
 deu.add_command(cred)
 deu.add_command(conn)
+deu.add_command(db)
 
 
 if __name__ == '__main__':
